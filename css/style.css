@@ -1,0 +1,156 @@
+:focus {
+    text-decoration: underline;
+}
+
+h1, h2, h3, p {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3%;
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    text-indent: 1.5rem;
+}
+
+main {
+    padding-bottom: 3%;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+nav ul li {
+    color: #ffffff;
+    background-color: #2F65A7;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.navLi1, .navLi2, .navLi3 {
+    grid-row: 1 / 2;
+}
+
+.navLi1 {
+    grid-column: 1 / 2;
+}
+
+.navLi2 {
+    grid-column: 2 / 3;
+}
+
+.navLi3 {
+    grid-column: 3 / 4;
+}
+
+.skip {
+    position: absolute;
+    left: 10%;
+    top: -10%;
+    color: #FFCB05;
+    background-color: #131516;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.skip:focus {
+    top: 3%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.chosenLink {
+    background-color: #7cafed;
+    font-style: italic;
+    border-bottom: 5px solid #FFFFFF;
+}
+
+body {
+    background-color: #CFC096;
+}
+
+.titleImg {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.grid22 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto auto;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 3%;
+    padding: 2%;
+    border: 5px double #000000;
+    border-radius: 1rem;
+}
+
+.grid22 img {
+    object-fit: cover;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.grid22 video {
+    height: 10rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: #c0c0c0;
+}
+
+.grid2201, .grid2202 {
+    grid-row: 1 / 2;
+}
+
+.grid2203, .grid2204 {
+    grid-row: 2 / 3;
+}
+
+.grid2201, .grid2203 {
+    grid-column: 1 / 2;
+}
+
+.grid2202, .grid2204 {
+    grid-column: 2 / 3;
+}
+
+.likes li {
+    list-style: inside;
+    text-indent: 2rem;
+}
