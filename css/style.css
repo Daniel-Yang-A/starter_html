@@ -93,7 +93,7 @@ a:hover {
 }
 
 .chosenLink {
-    background-color: #7cafed;
+    background-color: #702082;
     font-style: italic;
     border-bottom: 5px solid #FFFFFF;
 }
@@ -236,7 +236,7 @@ ol {
     border-radius: 1rem; */
 }
 
-.grid12 img {
+.grid12 img, .grid12 source {
     object-fit: cover;
     height: 100%;
     width: 100%;
@@ -316,6 +316,20 @@ ol {
     grid-column: 3 / 5;
 }
 
+.reduceOff {
+    visibility: inherit;
+}
+
+.reduceOn {
+    visibility: hidden;
+}
+
 @media (prefers-reduced-motion: reduce) {
-    .turtle { animation: none; }
+    .reduceOff {
+        visibility: hidden;
+    }
+
+    .reduceOn{
+        visibility: inherit;
+    }
 }
